@@ -1,0 +1,2 @@
+# Ignore src directory for publishing the package
+src/
