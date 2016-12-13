@@ -1,2 +1,3 @@
 # Ignore src directory for publishing the package
-src/
+src
+.babelrc
