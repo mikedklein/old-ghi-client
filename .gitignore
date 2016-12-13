@@ -77,4 +77,5 @@ dist/
 .tmp/
 
 ## NPM ##
-lib/
+# Need to keep this for now until the package is published.
+# lib/
