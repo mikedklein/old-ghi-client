@@ -2,12 +2,13 @@
   "name": "ghi-client-js",
   "version": "1.0.0",
   "description": "Common JS GHI API components",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:ghiglobal/ghi-client-js.git",
   "author": "Global Healthcare Integrators",
   "license": "UNLICENSED",
   "scripts": {
-    "compile": "babel --presets es2015,stage-2 -d lib/ src/"
+    "compile": "babel --presets es2015,stage-2 -d lib/ src/",
+    "preinstall": "npm run compile"
   },
   "devDependencies": {
     "axios": "^0.15.3",
