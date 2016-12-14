@@ -1,4 +1,4 @@
 /* Beans */
-export user from './beans/User';
+export * as User from './beans/User';
 /* Services */
 export { loginUser } from './services/userService'

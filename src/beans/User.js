@@ -11,6 +11,5 @@ class User {
   @observable errorMsg = '';
 }
 
-// NOTE instantiating the user because it will be a singleton across the App
 const user = new User();
 export default user;
