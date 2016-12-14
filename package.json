@@ -7,11 +7,7 @@
   "author": "Global Healthcare Integrators",
   "license": "UNLICENSED",
   "scripts": {
-    "compile": "babel --presets es2015,stage-2 -d lib/ src/"
-  },
-  "babel": {
-    "presets": ["es2015","stage-2"],
-    "plugins": ["transform-decorators-legacy", "transform-class-properties", "transform-export-extensions"]
+    "compile": "babel --presets es2015,stage-2 --plugins=transform-decorators-legacy,transform-class-properties,transform-export-extensions -d lib/ src/"
   },
   "files": [
     "*.md",
